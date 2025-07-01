@@ -200,6 +200,35 @@ namespace Demo
             //result = ((a+b) * c) / d; //((20+15) * 10) / 5 = 70
             //result = (a+b) * (c/d); //(20+15) * (10/5) = 70
             //result = a + (b * c) / d; //20 + (15 * 10) / 5 = 50
+            #endregion
+
+            #region Part 08 String Format
+            // Equation : 10 + 5 = 15
+
+            //int X = 10, Y = 5, result;
+            //result = X + Y;
+
+            //string message;
+
+            // 1. String Concatenation
+            //message = "Equation : " + X + " + " + Y + " = " + result;
+            //Console.WriteLine(message);
+
+            // 2. Composite Formatting
+            //Console.WriteLine("Equation : {0} + {1} = {2}", X,Y,result);
+
+            // 3. String.format
+            //message = string.Format("Equation : {0} + {1} = {2}", X, Y, result);
+            //Console.WriteLine(message);
+
+            //4. String Interpolation
+            //message = $"Equation : {X} + {Y} = {result}";
+            //Console.WriteLine(message);
+
+            //message = @"C:\Users\amray\source\repos\Route\CSharp\Day03\Demo\Demo.csproj";
+            //Console.WriteLine(message);
+
+            #endregion
 
         }
     }
