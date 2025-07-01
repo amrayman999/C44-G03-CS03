@@ -265,6 +265,40 @@ namespace Demo
 
             #endregion
 
+            #region Part 10 Conditional Statements - Example 02
+            // age is greater than 22 => student age is greater than 22
+            // age is less than 22 => student age is less than 22
+            // age is 22 => student age is 22
+
+            //Console.WriteLine("please enter student age: ");
+            //int.TryParse(Console.ReadLine(), out var age);
+
+            #region If - else
+            //if (age > 22)
+            //    Console.WriteLine("Student age is greater than 22");
+            //else if (age < 22)
+            //    Console.WriteLine("Student age is less than 22");
+            //else // age == 22
+            //    Console.WriteLine("Student age is 22");
+            #endregion
+            #region Switch
+            // No jump table
+            //switch (age)
+            //{
+            //    case > 22:
+            //        Console.WriteLine("Student age is greater than 22");
+            //        break;
+            //    case < 22:
+            //        Console.WriteLine("Student age is less than 22");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Student age is 22");
+            //        break;
+            //}
+            #endregion
+
+            #endregion
+
         }
     }
 }
