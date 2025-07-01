@@ -110,6 +110,10 @@
             // the answer is (c) -> The event is on 06/14/2024
             #endregion
 
+            #region Question (13)
+            // the answer is (f) -> A value 1 will be assigned to d
+            #endregion
+
         }
     }
 
