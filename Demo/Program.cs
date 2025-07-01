@@ -189,6 +189,18 @@ namespace Demo
 
             #endregion
 
+            #region Part 07 Operators Priority and Associativity
+            //int a = 20;
+            //int b = 15;
+            //int c = 10;
+            //int d = 5;
+            //int result;
+
+            //result = (a+b) * c / d; //(20+15) * 10 / 5 = 70
+            //result = ((a+b) * c) / d; //((20+15) * 10) / 5 = 70
+            //result = (a+b) * (c/d); //(20+15) * (10/5) = 70
+            //result = a + (b * c) / d; //20 + (15 * 10) / 5 = 50
+
         }
     }
 }
