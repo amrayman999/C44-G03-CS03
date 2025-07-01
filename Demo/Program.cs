@@ -1,4 +1,5 @@
 ﻿using System.Globalization;
+using System.Net.Http.Headers;
 
 namespace Demo
 {
@@ -297,6 +298,33 @@ namespace Demo
             //}
             #endregion
 
+            #endregion
+
+            #region Part 11 Conditional Statements - Example 03 Goto
+            //Console.WriteLine("please enter your budget : ");
+            //int.TryParse(Console.ReadLine(), out var value);
+
+            //switch (value)
+            //{
+            //    case 1000:
+            //        Console.WriteLine("Option 01");
+            //        break;
+            //    case 2000:
+            //        Console.WriteLine("Option 02");
+            //        goto case 1000;
+            //    case 3000:
+            //        Console.WriteLine("Option 03");
+            //        goto case 2000;
+
+            //}
+            //Retry:
+            //Console.WriteLine("please enter your name: ");
+            //string name = Console.ReadLine();
+
+            //if (name == "Ahmed")
+            //    goto Retry;
+            //else
+            //    Console.WriteLine(name);
             #endregion
 
         }
