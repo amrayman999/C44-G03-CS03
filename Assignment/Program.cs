@@ -114,6 +114,10 @@
             // the answer is (f) -> A value 1 will be assigned to d
             #endregion
 
+            #region Question (14)
+            // the answer is (d) - > 6 1
+            #endregion
+
         }
     }
 
