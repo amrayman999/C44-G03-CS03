@@ -31,14 +31,30 @@ namespace Demo
             //    int Y = (int)X;
             //    Console.WriteLine(Y);
             //}
-            long X = 5454785784545;
-            if (X > int.MaxValue || X < int.MinValue)
-                Console.WriteLine("exception will be thrown");
-            else
-            {
-                int Y = (int)X;
-                Console.WriteLine(Y);  
-            }
+            //long X = 5454785784545;
+            //if (X > int.MaxValue || X < int.MinValue)
+            //    Console.WriteLine("exception will be thrown");
+            //else
+            //{
+            //    int Y = (int)X;
+            //    Console.WriteLine(Y);  
+            //}
+
+            #endregion
+
+            #region Part 03 Convert - Casting
+            Console.WriteLine("Please enter your name: ");
+            string? name = Console.ReadLine();
+            Console.WriteLine("Please enter your age: ");
+            int age = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Please enter your salary: ");
+            decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+            Console.Clear();
+            Console.WriteLine("======== Employee Data ======== ");
+            Console.WriteLine("Name is: " + name);
+            Console.WriteLine("Age is: " + age);
+            Console.WriteLine("Salary is: " + salary);
             #endregion
         }
     }
