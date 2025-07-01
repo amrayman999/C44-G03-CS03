@@ -94,16 +94,20 @@
             #endregion
 
             #region Question (11)
-            Console.Write("Enter day: ");
-            int day = int.Parse(Console.ReadLine());
-            Console.Write("Enter month: ");
-            int month = int.Parse(Console.ReadLine());
-            Console.Write("Enter year: ");
-            int year = int.Parse(Console.ReadLine());
+            //Console.Write("Enter day: ");
+            //int day = int.Parse(Console.ReadLine());
+            //Console.Write("Enter month: ");
+            //int month = int.Parse(Console.ReadLine());
+            //Console.Write("Enter year: ");
+            //int year = int.Parse(Console.ReadLine());
 
-            Console.WriteLine($"{day} , {month} , {year}");
-            Console.WriteLine($"{day} / {month} / {year}");
-            Console.WriteLine($"{day} - {month} - {year}");
+            //Console.WriteLine($"{day} , {month} , {year}");
+            //Console.WriteLine($"{day} / {month} / {year}");
+            //Console.WriteLine($"{day} - {month} - {year}");
+            #endregion
+
+            #region Question (12)
+            // the answer is (c) -> The event is on 06/14/2024
             #endregion
 
         }
