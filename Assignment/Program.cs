@@ -87,12 +87,24 @@
             #endregion
 
             #region Question (10)
-            Console.Write("Enter Degree: ");
-            int degree = int.Parse(Console.ReadLine());
-            string result = degree > 30 ? "Just Hot" : (degree < 10 ? "Just Cold" :"Just Good") ;
-            Console.WriteLine(result);
+            //Console.Write("Enter Degree: ");
+            //int degree = int.Parse(Console.ReadLine());
+            //string result = degree > 30 ? "Just Hot" : (degree < 10 ? "Just Cold" :"Just Good") ;
+            //Console.WriteLine(result);
             #endregion
 
+            #region Question (11)
+            Console.Write("Enter day: ");
+            int day = int.Parse(Console.ReadLine());
+            Console.Write("Enter month: ");
+            int month = int.Parse(Console.ReadLine());
+            Console.Write("Enter year: ");
+            int year = int.Parse(Console.ReadLine());
+
+            Console.WriteLine($"{day} , {month} , {year}");
+            Console.WriteLine($"{day} / {month} / {year}");
+            Console.WriteLine($"{day} - {month} - {year}");
+            #endregion
 
         }
     }
