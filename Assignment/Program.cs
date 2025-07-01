@@ -118,6 +118,10 @@
             // the answer is (d) - > 6 1
             #endregion
 
+            #region Question (15)
+            // the answer is (d) - > 7 7
+            #endregion
+
         }
     }
 
