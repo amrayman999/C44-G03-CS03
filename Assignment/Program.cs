@@ -27,8 +27,20 @@
 
             #region Question (4)
             // using substring method in string to get substring 'amr ayman'
-            string myString = "Hello, my name is amr ayman";
-            Console.WriteLine(myString.Substring(18,9));
+            //string myString = "Hello, my name is amr ayman";
+            //Console.WriteLine(myString.Substring(18,9));
+            #endregion
+
+            #region Question (5)
+            // as they are value types , when assigning one to another it takes only a copy of the value
+            // so when we change the variable after assignment ,
+            // it does not get affected as ebery variable has separate address in memory
+            int num1 = 5;
+            int num2 = 6;
+            num1 = num2;
+            num2 = 4;
+            Console.WriteLine(num1); // prints 6
+            Console.WriteLine(num2); // prints 4
             #endregion
 
 
