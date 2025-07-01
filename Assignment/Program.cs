@@ -35,16 +35,39 @@
             // as they are value types , when assigning one to another it takes only a copy of the value
             // so when we change the variable after assignment ,
             // it does not get affected as ebery variable has separate address in memory
-            int num1 = 5;
-            int num2 = 6;
-            num1 = num2;
-            num2 = 4;
-            Console.WriteLine(num1); // prints 6
-            Console.WriteLine(num2); // prints 4
+            //int num1 = 5;
+            //int num2 = 6;
+            //num1 = num2;
+            //num2 = 4;
+            //Console.WriteLine(num1); // prints 6
+            //Console.WriteLine(num2); // prints 4
+            #endregion
+
+            #region Question (6)
+            // as they are reference types , when assigning one to another it reference the address of the other
+            // so when we change the variable after assignment ,
+            // the change made appears in the first and second objects
+            Point point1 = new Point(1, 1);
+            Point point2 = new Point(2, 2);
+            point1 = point2;
+            point2.X = 5;
+            Console.WriteLine(point1.X); // print 5
+            Console.WriteLine(point2.X); // print 5
             #endregion
 
 
-
         }
+    }
+
+    public class Point
+    {
+        public Point(int x, int y)
+        {
+            X = x;
+            Y = y;
+        }
+
+        public int X {  get; set; }
+        public int Y { get; set; }
     }
 }
