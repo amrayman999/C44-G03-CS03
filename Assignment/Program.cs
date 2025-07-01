@@ -21,8 +21,14 @@
 
             #region Question (3)
             // in this case we use float (f) to represent any floating point number as float, as the result is float)
-            float result = 3.5f + 5 - 2 + 3.555f;
-            Console.WriteLine(result);
+            //float result = 3.5f + 5 - 2 + 3.555f;
+            //Console.WriteLine(result);
+            #endregion
+
+            #region Question (4)
+            // using substring method in string to get substring 'amr ayman'
+            string myString = "Hello, my name is amr ayman";
+            Console.WriteLine(myString.Substring(18,9));
             #endregion
 
 
