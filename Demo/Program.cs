@@ -230,6 +230,41 @@ namespace Demo
 
             #endregion
 
+            #region Part 09 Conditional Statements - Example 01
+            //Console.WriteLine("Please enter a month number existed is 1st quarter : ");
+            //int.TryParse(Console.ReadLine(), out var value);
+
+            #region If - Else
+            //if (value == 1)
+            //    Console.WriteLine("Hello, January");
+            //else if (value == 2)
+            //    Console.WriteLine("Hello, February");
+            //else if (value == 3)
+            //    Console.WriteLine("Hello, March");
+            //else
+            //    Console.WriteLine("Invalid month number");
+            #endregion
+            #region Switch
+            // Jump Table
+            //switch (value)
+            //{
+            //    case 1:
+            //        Console.WriteLine("Hello, January");
+            //        break;
+            //    case 2:
+            //        Console.WriteLine("Hello, February");
+            //        break;
+            //    case 3:
+            //        Console.WriteLine("Hello, March");
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid month number");
+            //        break;
+            //}
+            #endregion
+
+            #endregion
+
         }
     }
 }
