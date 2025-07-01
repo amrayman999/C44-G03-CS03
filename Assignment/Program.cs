@@ -56,12 +56,24 @@
             #endregion
 
             #region Question (7)
-            Console.WriteLine("enter first value: ");
-            string first = Console.ReadLine();
-            Console.WriteLine("enter second value: ");
-            string second = Console.ReadLine();
-            string result = first + " " + second;
-            Console.WriteLine("The result is : " + result);
+            //Console.WriteLine("enter first value: ");
+            //string first = Console.ReadLine();
+            //Console.WriteLine("enter second value: ");
+            //string second = Console.ReadLine();
+            //string result = first + " " + second;
+            //Console.WriteLine("The result is : " + result);
+            #endregion
+
+            #region Question (8)
+            Console.Write("Enter principal amount: ");
+            float princAmount = float.Parse(Console.ReadLine());
+            Console.Write("Enter rate of interest: ");
+            float interestRate = float.Parse(Console.ReadLine());
+            Console.Write("Enter time: ");
+            float time = float.Parse(Console.ReadLine());
+            float simpleInterest = (princAmount * interestRate * time) / 100;
+            Console.WriteLine("Simple Interest: " + simpleInterest);
+
             #endregion
 
 
