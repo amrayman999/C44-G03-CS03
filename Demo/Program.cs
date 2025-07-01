@@ -58,12 +58,40 @@ namespace Demo
             #endregion
 
             #region Part 04 Parse - Casting
+            //Console.WriteLine("Please enter your name: ");
+            //string? name = Console.ReadLine();
+            //Console.WriteLine("Please enter your age: ");
+            //int age = int.Parse(Console.ReadLine());
+            //Console.WriteLine("Please enter your salary: ");
+            //decimal salary = decimal.Parse(Console.ReadLine());
+
+            //Console.Clear();
+            //Console.WriteLine("======== Employee Data ======== ");
+            //Console.WriteLine("Name is: " + name);
+            //Console.WriteLine("Age is: " + age);
+            //Console.WriteLine("Salary is: " + salary);
+            #endregion
+
+            #region Part 05 TryParse - Casting
+            //string numer01 = "100";
+            //int X01 = int.Parse(numer01);
+            //Console.WriteLine(X01);
+
+            //string numer02 = "ahmed";
+            //int X02 = int.Parse(numer02);
+            //Console.WriteLine(X02);
+
+            //string numer02 = "Ahmed";
+            //bool isParsed = int.TryParse(numer02, out int X02);
+            //Console.WriteLine(isParsed);
+            //Console.WriteLine(X02);
+
             Console.WriteLine("Please enter your name: ");
             string? name = Console.ReadLine();
             Console.WriteLine("Please enter your age: ");
-            int age = int.Parse(Console.ReadLine());
+            int.TryParse(Console.ReadLine() , out int age);
             Console.WriteLine("Please enter your salary: ");
-            decimal salary = decimal.Parse(Console.ReadLine());
+            decimal.TryParse(Console.ReadLine() , out decimal salary);
 
             Console.Clear();
             Console.WriteLine("======== Employee Data ======== ");
