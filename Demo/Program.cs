@@ -43,12 +43,27 @@ namespace Demo
             #endregion
 
             #region Part 03 Convert - Casting
+            //Console.WriteLine("Please enter your name: ");
+            //string? name = Console.ReadLine();
+            //Console.WriteLine("Please enter your age: ");
+            //int age = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine("Please enter your salary: ");
+            //decimal salary = Convert.ToDecimal(Console.ReadLine());
+
+            //console.clear();
+            //console.writeline("======== employee data ======== ");
+            //console.writeline("name is: " + name);
+            //console.writeline("age is: " + age);
+            //console.writeline("salary is: " + salary);
+            #endregion
+
+            #region Part 04 Parse - Casting
             Console.WriteLine("Please enter your name: ");
             string? name = Console.ReadLine();
             Console.WriteLine("Please enter your age: ");
-            int age = Convert.ToInt32(Console.ReadLine());
+            int age = int.Parse(Console.ReadLine());
             Console.WriteLine("Please enter your salary: ");
-            decimal salary = Convert.ToDecimal(Console.ReadLine());
+            decimal salary = decimal.Parse(Console.ReadLine());
 
             Console.Clear();
             Console.WriteLine("======== Employee Data ======== ");
@@ -56,6 +71,7 @@ namespace Demo
             Console.WriteLine("Age is: " + age);
             Console.WriteLine("Salary is: " + salary);
             #endregion
+
         }
     }
 }
