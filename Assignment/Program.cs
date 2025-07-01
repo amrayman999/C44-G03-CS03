@@ -47,12 +47,21 @@
             // as they are reference types , when assigning one to another it reference the address of the other
             // so when we change the variable after assignment ,
             // the change made appears in the first and second objects
-            Point point1 = new Point(1, 1);
-            Point point2 = new Point(2, 2);
-            point1 = point2;
-            point2.X = 5;
-            Console.WriteLine(point1.X); // print 5
-            Console.WriteLine(point2.X); // print 5
+            //Point point1 = new Point(1, 1);
+            //Point point2 = new Point(2, 2);
+            //point1 = point2;
+            //point2.X = 5;
+            //Console.WriteLine(point1.X); // print 5
+            //Console.WriteLine(point2.X); // print 5
+            #endregion
+
+            #region Question (7)
+            Console.WriteLine("enter first value: ");
+            string first = Console.ReadLine();
+            Console.WriteLine("enter second value: ");
+            string second = Console.ReadLine();
+            string result = first + " " + second;
+            Console.WriteLine("The result is : " + result);
             #endregion
 
 
