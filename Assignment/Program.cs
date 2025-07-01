@@ -77,13 +77,20 @@
             #endregion
 
             #region Question (9)
-            float bmi, weight, height;
-            Console.Write("enter your weight in kg: ");
-            weight = float.Parse(Console.ReadLine());
-            Console.Write("enter your height in meters: ");
-            height = float.Parse(Console.ReadLine());
-            bmi = weight / (height * height);
-            Console.WriteLine("bmi is " + bmi);
+            //float bmi, weight, height;
+            //Console.Write("enter your weight in kg: ");
+            //weight = float.Parse(Console.ReadLine());
+            //Console.Write("enter your height in meters: ");
+            //height = float.Parse(Console.ReadLine());
+            //bmi = weight / (height * height);
+            //Console.WriteLine("bmi is " + bmi);
+            #endregion
+
+            #region Question (10)
+            Console.Write("Enter Degree: ");
+            int degree = int.Parse(Console.ReadLine());
+            string result = degree > 30 ? "Just Hot" : (degree < 10 ? "Just Cold" :"Just Good") ;
+            Console.WriteLine(result);
             #endregion
 
 
