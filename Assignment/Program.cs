@@ -65,15 +65,25 @@
             #endregion
 
             #region Question (8)
-            Console.Write("Enter principal amount: ");
-            float princAmount = float.Parse(Console.ReadLine());
-            Console.Write("Enter rate of interest: ");
-            float interestRate = float.Parse(Console.ReadLine());
-            Console.Write("Enter time: ");
-            float time = float.Parse(Console.ReadLine());
-            float simpleInterest = (princAmount * interestRate * time) / 100;
-            Console.WriteLine("Simple Interest: " + simpleInterest);
+            //Console.Write("Enter principal amount: ");
+            //float princAmount = float.Parse(Console.ReadLine());
+            //Console.Write("Enter rate of interest: ");
+            //float interestRate = float.Parse(Console.ReadLine());
+            //Console.Write("Enter time: ");
+            //float time = float.Parse(Console.ReadLine());
+            //float simpleInterest = (princAmount * interestRate * time) / 100;
+            //Console.WriteLine("Simple Interest: " + simpleInterest);
 
+            #endregion
+
+            #region Question (9)
+            float bmi, weight, height;
+            Console.Write("enter your weight in kg: ");
+            weight = float.Parse(Console.ReadLine());
+            Console.Write("enter your height in meters: ");
+            height = float.Parse(Console.ReadLine());
+            bmi = weight / (height * height);
+            Console.WriteLine("bmi is " + bmi);
             #endregion
 
 
